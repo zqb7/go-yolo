@@ -43,7 +43,9 @@ func main() {
             }
         }
     }
-    fmt.Println(result)
+    for _, r := range result {
+        fmt.Println(r)
+    } 
 
 }
 func Detector(imgPath string) C.LinkList {
