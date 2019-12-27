@@ -11,7 +11,7 @@
     ```
 
 2. 执行: `go run detector.go`
-
+![demo](https://raw.githubusercontent.com/bzyy/go-yolo/master/demo.gif)
 
 ### 参考资料
 + https://github.com/yummybian/go-yolo
