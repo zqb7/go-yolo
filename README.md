@@ -13,6 +13,10 @@
 2. 执行: `go run detector.go`
 ![demo](https://raw.githubusercontent.com/bzyy/go-yolo/master/demo.gif)
 
+### 更新日志
+> 使用过程中,发现有内存溢出bug,暂未解决。 在 `go-yolo.h` 的第56行 `dets[j].prob[i]`. prob[i]可能为空  
+推荐使用官方提供的python接口
+
 ### 参考资料
 + https://github.com/yummybian/go-yolo
 + https://github.com/gyonluks/go-darknet
